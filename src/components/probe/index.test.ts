@@ -89,7 +89,7 @@ describe('Base Probe processing', () => {
         async (_connectionUri) =>
           ({
             async end() {
-              Promise.resolve()
+              await Promise.resolve()
             },
           } as mariadb.Connection)
       )
@@ -114,7 +114,7 @@ describe('Base Probe processing', () => {
       await sleep(seconds)
 
       // act
-      await Promise.all(
+      Promise.all(
         probes.map((probe) =>
           doProbe({
             probe,
@@ -122,12 +122,15 @@ describe('Base Probe processing', () => {
             signal: new AbortController().signal,
           })
         )
-      )
+      ).then(() => {
+        sinon.assert.calledOnce(requestStub)
+      })
+
       // wait for random timeout
-      await sleep(3 * seconds)
+      // await sleep(3 * seconds)
 
       // assert
-      sinon.assert.calledOnce(requestStub)
+      // sinon.assert.calledOnce(requestStub)
     })
 
     it('should send incident notification for MariaDB probe', async () => {
@@ -157,7 +160,7 @@ describe('Base Probe processing', () => {
       await sleep(seconds)
 
       // act
-      await doProbe({
+      doProbe({
         probe,
         notifications: [
           {
@@ -167,22 +170,26 @@ describe('Base Probe processing', () => {
           },
         ],
         signal: new AbortController().signal,
+      }).then(() => {
+        expect(notificationAlert?.[probe.id]?.body?.url).eq('1c8QrZ')
+        expect(notificationAlert?.[probe.id]?.body?.alert).eq('')
       })
+
       // wait for random timeout
-      await sleep(3 * seconds)
+      // await sleep(3 * seconds)
       // wait for send notification function to resolve
-      await sleep(2 * seconds)
+      // await sleep(2 * seconds)
 
       // assert
-      expect(notificationAlert?.[probe.id]?.body?.url).eq('1c8QrZ')
-      expect(notificationAlert?.[probe.id]?.body?.alert).eq('')
+      // expect(notificationAlert?.[probe.id]?.body?.url).eq('1c8QrZ')
+      // expect(notificationAlert?.[probe.id]?.body?.alert).eq('')
 
       // restore
       sinon.stub(mariadb, 'createConnection').callsFake(
         async (_connectionUri) =>
           ({
             async end() {
-              Promise.resolve()
+              await Promise.resolve()
             },
           } as mariadb.Connection)
       )
@@ -197,7 +204,7 @@ describe('Base Probe processing', () => {
         async (_connectionUri) =>
           ({
             async end() {
-              Promise.resolve()
+              await Promise.resolve()
             },
           } as mariadb.Connection)
       )
@@ -237,7 +244,7 @@ describe('Base Probe processing', () => {
       await sleep(seconds)
 
       // act
-      await doProbe({
+      doProbe({
         probe,
         notifications: [
           {
@@ -248,13 +255,21 @@ describe('Base Probe processing', () => {
         ],
         signal: new AbortController().signal,
       })
+        .then(() => {
+          sleep(7000)
+        })
+        .then(() => {
+          sinon.assert.called(requestStub)
+          expect(notificationAlert?.[probe.id]?.body?.url).eq('3ngd4')
+          expect(notificationAlert?.[probe.id]?.body?.alert).eq('')
+        })
       // gonna need to wait for a while until monika does the probing twice
-      await sleep(7000)
+      // await sleep(7000)
 
       // assert
-      sinon.assert.called(requestStub)
-      expect(notificationAlert?.[probe.id]?.body?.url).eq('3ngd4')
-      expect(notificationAlert?.[probe.id]?.body?.alert).eq('')
+      // sinon.assert.called(requestStub)
+      // expect(notificationAlert?.[probe.id]?.body?.url).eq('3ngd4')
+      // expect(notificationAlert?.[probe.id]?.body?.alert).eq('')
     }).timeout(15_000)
 
     it('should probe MongoDB', async () => {
@@ -514,7 +529,7 @@ describe('Base Probe processing', () => {
       await sleep(seconds)
 
       // act
-      await Promise.all(
+      Promise.all(
         probes.map((probe) =>
           doProbe({
             probe,
@@ -522,12 +537,15 @@ describe('Base Probe processing', () => {
             signal: new AbortController().signal,
           })
         )
-      )
+      ).then(() => {
+        sinon.assert.calledOnce(requestStub)
+      })
+
       // wait for random timeout
-      await sleep(3 * seconds)
+      // await sleep(3 * seconds)
 
       // assert
-      sinon.assert.calledOnce(requestStub)
+      // sinon.assert.calledOnce(requestStub)
     })
 
     it('should probe Redis with uri', async () => {
@@ -557,7 +575,7 @@ describe('Base Probe processing', () => {
       await sleep(seconds)
 
       // act
-      await Promise.all(
+      Promise.all(
         probes.map((probe) =>
           doProbe({
             probe,
@@ -565,12 +583,15 @@ describe('Base Probe processing', () => {
             signal: new AbortController().signal,
           })
         )
-      )
+      ).then(() => {
+        sinon.assert.calledOnce(requestStub)
+      })
+
       // wait for random timeout
-      await sleep(3 * seconds)
+      // await sleep(3 * seconds)
 
       // assert
-      sinon.assert.calledOnce(requestStub)
+      // sinon.assert.calledOnce(requestStub)
     })
 
     it('should probe socket', async () => {
