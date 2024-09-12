@@ -1,0 +1,23 @@
+notifications:
+  - id: '1'
+    type: desktop
+probes:
+  - id: '1'
+    name: 'initial'
+    description: ''
+    interval: 10
+    requests:
+      - url: https://github.com/
+        body: {}
+        timeout: '2000'
+        headers: {}
+        method: GET
+    incidentThreshold: 5
+    recoveryThreshold: 5
+    alerts:
+      - assertion: response.status < 200 or response.status > 299
+        message: Target is not healthy. It has not been returning status code 2xx.
+      - assertion: response.time > 2000
+        message: >-
+          Target is not healthy. The response time has been greater than 2000
+          ms.

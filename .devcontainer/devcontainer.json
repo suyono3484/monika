@@ -1,6 +1,9 @@
 {
     "name": "monika dev container",
     "image": "node:20.17-bookworm",
-    "runArgs": ["--name", "dev-monika"],
+    "runArgs": [
+        "--name", "dev-monika", 
+        "--network", "monika"
+    ],
     "remoteUser": "node"
 }
