@@ -1,13 +1,15 @@
 notifications:
   - id: '1'
-    type: desktop
+    type: webhook
+    data:
+      url: http://go-http-test-monika:8080/notif
 probes:
   - id: '1'
     name: 'initial'
     description: ''
-    interval: 10
+    interval: 1
     requests:
-      - url: https://github.com/
+      - url: http://go-http-test-monika:8080/
         body: {}
         timeout: '2000'
         headers: {}
