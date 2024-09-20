@@ -1,0 +1,1551 @@
+{
+    "message": "Successfully get monitors",
+    "data": [
+      {
+        "id": "f0d61451-27b4-4ef0-a07d-538258e1f2bc",
+        "requests": [
+          {
+            "alerts": [
+              {
+                "id": "6df37848-00e8-46cb-affc-71140c5f421d",
+                "query": "response.status < 200 or response.status > 299",
+                "message": "HTTP Status is {{ response.status }}, expecting 200"
+              },
+              {
+                "id": "9df309dc-5022-43c8-a0bd-b68104d35bda",
+                "query": "response.time > 2000",
+                "message": "URL Response is Slow"
+              },
+              {
+                "id": "b5e5c0e8-bc66-4c2f-907f-1c6c609c9b76",
+                "query": "",
+                "message": "Probe not accessible"
+              }
+            ],
+            "body": null,
+            "headers": {
+              "Authorization": "784c382130ceddb75af9e52394506f26e246eeb3"
+            },
+            "id": "a58afaf1-f975-4ee2-b4d6-d5123112d45c",
+            "method": "POST",
+            "timeout": 30000,
+            "url": "https://coobabycoo.id/api/neosense",
+            "port": 0,
+            "ipAddress": "0.0.0.0",
+            "protocol": "http",
+            "order": 0,
+            "followRedirects": 5
+          }
+        ],
+        "interval": 300,
+        "lastEvent": {
+          "alertId": "b5e5c0e8-bc66-4c2f-907f-1c6c609c9b76",
+          "createdAt": "2024-08-26T02:32:27.265Z",
+          "recoveredAt": null
+        }
+      },
+      {
+        "id": "ed0c4fb2-bb7a-409a-b36d-eadf19b126e7",
+        "requests": [
+          {
+            "alerts": [
+              {
+                "id": "7b2b846b-c448-4465-805a-06a0e6cd4fc7",
+                "query": "",
+                "message": "Probe not accessible"
+              },
+              {
+                "id": "c667120c-bb7d-408c-8fab-992019fcca50",
+                "query": "response.status < 200 or response.status > 299",
+                "message": "HTTP Status is {{ response.status }}, expecting 200"
+              }
+            ],
+            "body": null,
+            "headers": null,
+            "id": "7bcc9048-60f8-4b32-ac07-a07ea45fe8c0",
+            "method": "GET",
+            "timeout": 30000,
+            "url": "https://digitalday.sinarmas.com/cms/admin/auth/login",
+            "port": 0,
+            "ipAddress": "0.0.0.0",
+            "protocol": "http",
+            "order": 0,
+            "followRedirects": 5
+          }
+        ],
+        "interval": 300,
+        "lastEvent": {}
+      },
+      {
+        "id": "ead12d9b-9a82-41af-a78e-05dd4983663f",
+        "requests": [
+          {
+            "alerts": [
+              {
+                "id": "0189f2ee-26bb-459b-956f-cfd0b4c44f2a",
+                "query": "response.status < 200 or response.status > 299",
+                "message": "HTTP Status is {{ response.status }}, expecting 200"
+              },
+              {
+                "id": "c4825229-7843-4a9a-8761-7ce2a57e9d0a",
+                "query": "",
+                "message": "Probe not accessible"
+              }
+            ],
+            "body": null,
+            "headers": null,
+            "id": "102f663a-2271-4dab-b800-cfb9c2982b62",
+            "method": "GET",
+            "timeout": 30000,
+            "url": "https://cart.indorelawan.org/health",
+            "port": 0,
+            "ipAddress": "0.0.0.0",
+            "protocol": "http",
+            "order": 0,
+            "followRedirects": 5
+          }
+        ],
+        "interval": 300,
+        "lastEvent": {}
+      },
+      {
+        "id": "e7da27a9-ed40-430f-9ff8-dd5791402216",
+        "requests": [
+          {
+            "alerts": [
+              {
+                "id": "7bf25d3e-ceb9-4a11-9428-cbd549e39659",
+                "query": "",
+                "message": "Probe not accessible"
+              },
+              {
+                "id": "9a2fdd1d-9d17-44b9-9c57-d0523277d503",
+                "query": "response.status < 200 or response.status > 299",
+                "message": "HTTP Status is {{ response.status }}, expecting 200"
+              }
+            ],
+            "body": null,
+            "headers": {},
+            "id": "2c937833-b91a-4410-a03b-d729af8ad7f4",
+            "method": "GET",
+            "timeout": 30000,
+            "url": "https://mangkunegaran.id/cms/admin/auth/login",
+            "port": 0,
+            "ipAddress": "0.0.0.0",
+            "protocol": "http",
+            "order": 0,
+            "followRedirects": 5
+          }
+        ],
+        "interval": 300,
+        "lastEvent": {}
+      },
+      {
+        "id": "e546db6f-78f4-4069-b5f8-6bdf0761a9d0",
+        "requests": [
+          {
+            "alerts": [
+              {
+                "id": "9ffa0f8e-c09e-4b35-9c91-061cef7f4fdb",
+                "query": "response.status < 200 or response.status > 299",
+                "message": "HTTP Status is {{ response.status }}, expecting 200"
+              },
+              {
+                "id": "a8805c81-9e55-4a91-8c0c-590e0bcb9410",
+                "query": "",
+                "message": "Probe not accessible"
+              }
+            ],
+            "body": null,
+            "headers": null,
+            "id": "5aac696b-8561-44a2-b5d8-d5ec58b1da0d",
+            "method": "GET",
+            "timeout": 30000,
+            "url": "https://www.google.com",
+            "port": 0,
+            "ipAddress": "0.0.0.0",
+            "protocol": "http",
+            "order": 0,
+            "followRedirects": 5
+          }
+        ],
+        "interval": 300,
+        "lastEvent": {}
+      },
+      {
+        "id": "dcde5d4d-c47e-4b70-8752-6aa61dd24e0a",
+        "requests": [
+          {
+            "alerts": [
+              {
+                "id": "75bff40d-fd17-4d18-bedb-a8a9cc5cd70b",
+                "query": "",
+                "message": "Probe not accessible"
+              },
+              {
+                "id": "e273481b-df9c-4dc7-9711-1d9d83fb69b2",
+                "query": "response.status < 200 or response.status > 299",
+                "message": "HTTP Status is {{ response.status }}, expecting 200"
+              }
+            ],
+            "body": null,
+            "headers": {},
+            "id": "dadf093f-f5e0-496f-804f-e59a5c2dfa4e",
+            "method": "GET",
+            "timeout": 30000,
+            "url": "https://smdv.com",
+            "port": 0,
+            "ipAddress": "0.0.0.0",
+            "protocol": "http",
+            "order": 0,
+            "followRedirects": 5
+          }
+        ],
+        "interval": 300,
+        "lastEvent": {}
+      },
+      {
+        "id": "dae738e8-cbed-474f-9f05-754b6dbb4d8e",
+        "requests": [
+          {
+            "alerts": [
+              {
+                "id": "5be80b33-94f1-4104-b268-c709ce68328f",
+                "query": "",
+                "message": "Probe not accessible"
+              },
+              {
+                "id": "7e171121-8cc3-420a-b2d4-eb7ef30a1e40",
+                "query": "response.status < 200 or response.status > 299",
+                "message": "HTTP Status is {{ response.status }}, expecting 200"
+              }
+            ],
+            "body": null,
+            "headers": {},
+            "id": "24b1a20c-ebe8-4e0b-9fcd-2387e2cdf233",
+            "method": "GET",
+            "timeout": 30000,
+            "url": "https://nicofyi.magic.coolify.nico.fyi",
+            "port": 0,
+            "ipAddress": "0.0.0.0",
+            "protocol": "http",
+            "order": 0,
+            "followRedirects": 5
+          }
+        ],
+        "interval": 300,
+        "lastEvent": {}
+      },
+      {
+        "id": "dae37113-1059-4361-898d-de1cb85555d1",
+        "requests": [
+          {
+            "alerts": [
+              {
+                "id": "48e68ef2-e4f4-48a4-b88e-48e5601c7e07",
+                "query": "",
+                "message": "Probe not accessible"
+              },
+              {
+                "id": "e73ca2f1-7035-41ff-9e66-aa3d9e456036",
+                "query": "response.status < 200 or response.status > 299",
+                "message": "HTTP Status is {{ response.status }}, expecting 200"
+              }
+            ],
+            "body": null,
+            "headers": null,
+            "id": "459a913d-c0f9-4db9-b6f7-70435075a1c0",
+            "method": "GET",
+            "timeout": 30000,
+            "url": "https://www.google.com",
+            "port": 0,
+            "ipAddress": "0.0.0.0",
+            "protocol": "http",
+            "order": 0,
+            "followRedirects": 5
+          }
+        ],
+        "interval": 300,
+        "lastEvent": {}
+      },
+      {
+        "id": "d1cd7859-42b0-4043-8379-3f082eda298c",
+        "requests": [
+          {
+            "alerts": [
+              {
+                "id": "5c6514c8-2a2b-436b-b837-19980a041fe8",
+                "query": "",
+                "message": "Probe not accessible"
+              },
+              {
+                "id": "671651ca-ff89-480a-b3ac-b72f947c858c",
+                "query": "response.status < 200 or response.status > 299",
+                "message": "HTTP Status is {{ response.status }}, expecting 200"
+              }
+            ],
+            "body": null,
+            "headers": null,
+            "id": "577e9795-8904-4f7b-b7b3-d7a118e80e1e",
+            "method": "GET",
+            "timeout": 30000,
+            "url": "https://digitalday.sinarmas.com",
+            "port": 0,
+            "ipAddress": "0.0.0.0",
+            "protocol": "http",
+            "order": 0,
+            "followRedirects": 5
+          }
+        ],
+        "interval": 300,
+        "lastEvent": {}
+      },
+      {
+        "id": "c9b3835b-775c-412a-8f42-a30fd13eb532",
+        "requests": [
+          {
+            "alerts": [
+              {
+                "id": "1d68e425-446a-4053-ac3f-df3569d8e29c",
+                "query": "response.status < 200 or response.status > 299",
+                "message": "HTTP Status is {{ response.status }}, expecting 200"
+              },
+              {
+                "id": "74034871-f79c-4198-b0f9-d196c89272e5",
+                "query": "",
+                "message": "Probe not accessible"
+              }
+            ],
+            "body": null,
+            "headers": null,
+            "id": "9ef79042-8957-40e4-8764-6a3f8a8b79c7",
+            "method": "GET",
+            "timeout": 30000,
+            "url": "https://www.bukalapak.com/",
+            "port": 0,
+            "ipAddress": "0.0.0.0",
+            "protocol": "http",
+            "order": 0,
+            "followRedirects": 5
+          }
+        ],
+        "interval": 300,
+        "lastEvent": {}
+      },
+      {
+        "id": "c3abdd67-077f-4d2f-8539-fca0d8cdec1b",
+        "requests": [
+          {
+            "alerts": [
+              {
+                "id": "479a7c60-a60e-4527-a3a1-055696e541ae",
+                "query": "response.status < 200 or response.status > 299",
+                "message": "HTTP Status is {{ response.status }}, expecting 200"
+              },
+              {
+                "id": "b041a07a-d84a-43c0-a923-bd1ffb176284",
+                "query": "",
+                "message": "Probe not accessible"
+              }
+            ],
+            "body": null,
+            "headers": null,
+            "id": "8fb84df2-f500-485c-aae4-fd92f033b40a",
+            "method": "GET",
+            "timeout": 30000,
+            "url": "https://www.google.com",
+            "port": 0,
+            "ipAddress": "0.0.0.0",
+            "protocol": "http",
+            "order": 0,
+            "followRedirects": 5
+          }
+        ],
+        "interval": 300,
+        "lastEvent": {}
+      },
+      {
+        "id": "c08e2d62-6984-40ca-b14c-241acb3e5169",
+        "requests": [
+          {
+            "alerts": [
+              {
+                "id": "ae2e071c-550c-4d78-9dec-1fc7b6065ac7",
+                "query": "",
+                "message": "Probe not accessible"
+              },
+              {
+                "id": "bdc7d105-c5e7-4df3-b946-99a4fd056320",
+                "query": "response.status < 200 or response.status > 299",
+                "message": "HTTP Status is {{ response.status }}, expecting 200"
+              }
+            ],
+            "body": null,
+            "headers": null,
+            "id": "78d0fa30-60cd-4ad0-9c8a-f8ff4d942daf",
+            "method": "GET",
+            "timeout": 30000,
+            "url": "https://idp.sinarmas.com",
+            "port": 0,
+            "ipAddress": "0.0.0.0",
+            "protocol": "http",
+            "order": 0,
+            "followRedirects": 5
+          }
+        ],
+        "interval": 300,
+        "lastEvent": {}
+      },
+      {
+        "id": "bb1df800-be39-4760-8cfb-083d0d954778",
+        "requests": [
+          {
+            "alerts": [
+              {
+                "id": "5f4b16bd-f1bb-4e92-9d50-f78707d26a2e",
+                "query": "",
+                "message": "Probe not accessible"
+              },
+              {
+                "id": "e43b44b4-d9ad-499e-a4b1-ec75beef9698",
+                "query": "response.status < 200 or response.status > 299",
+                "message": "HTTP Status is {{ response.status }}, expecting 200"
+              }
+            ],
+            "body": null,
+            "headers": {},
+            "id": "5e7486a1-51f5-4519-a685-2690bf6d42f4",
+            "method": "GET",
+            "timeout": 30000,
+            "url": "https://mangkunegaran.id",
+            "port": 0,
+            "ipAddress": "0.0.0.0",
+            "protocol": "http",
+            "order": 0,
+            "followRedirects": 5
+          }
+        ],
+        "interval": 300,
+        "lastEvent": {}
+      },
+      {
+        "id": "ba2ffa09-6f20-4b38-a060-a34a7698b6d5",
+        "interval": 300,
+        "socket": {
+          "host": "103.150.88.174",
+          "port": 22,
+          "data": null,
+          "alerts": [
+            {
+              "id": "d0d11007-32fb-4f25-b7fc-4b58585f7c16",
+              "query": "",
+              "message": "Probe not accessible"
+            }
+          ]
+        },
+        "lastEvent": {}
+      },
+      {
+        "id": "b30f3755-8648-43b6-a54b-807201b40605",
+        "requests": [
+          {
+            "alerts": [
+              {
+                "id": "04332002-2416-42ae-b9cf-80ed83c200b0",
+                "query": "",
+                "message": "Probe not accessible"
+              },
+              {
+                "id": "e0b2ec6a-b010-45bd-85e5-4cf51fb5abed",
+                "query": "response.status < 200 or response.status > 299",
+                "message": "HTTP Status is not 200"
+              },
+              {
+                "id": "ef56ee8d-1b93-48a7-a2fd-d6a5200fba22",
+                "query": "response.time > 2000",
+                "message": "Response time is more than 2000ms"
+              }
+            ],
+            "body": null,
+            "headers": null,
+            "id": "a0c74d64-0882-4f33-97aa-e99a6b21987f",
+            "method": "GET",
+            "timeout": 10000,
+            "url": "https://idntimes.com",
+            "port": 0,
+            "ipAddress": "0.0.0.0",
+            "protocol": "http",
+            "order": 0,
+            "followRedirects": 5
+          }
+        ],
+        "interval": 300,
+        "lastEvent": {
+          "alertId": "ef56ee8d-1b93-48a7-a2fd-d6a5200fba22",
+          "createdAt": "2024-05-30T12:32:12.931Z",
+          "recoveredAt": "2024-05-30T12:39:18.946Z"
+        }
+      },
+      {
+        "id": "adea2ab6-2c9d-4a0a-9bd5-71a421ce5074",
+        "requests": [
+          {
+            "alerts": [
+              {
+                "id": "191f7cad-ee4b-4fa0-a793-95b445d3e771",
+                "query": "",
+                "message": "Probe not accessible"
+              },
+              {
+                "id": "b4e0ed22-0ce5-41b9-9ae0-0aab038c796d",
+                "query": "response.status < 200 or response.status > 299",
+                "message": "HTTP Status is {{ response.status }}, expecting 200"
+              }
+            ],
+            "body": null,
+            "headers": null,
+            "id": "bd94f5f2-257e-4542-8ed2-f6fb78fe0e88",
+            "method": "GET",
+            "timeout": 30000,
+            "url": "https://bookkeeping.indorelawan.org/health",
+            "port": 0,
+            "ipAddress": "0.0.0.0",
+            "protocol": "http",
+            "order": 0,
+            "followRedirects": 5
+          }
+        ],
+        "interval": 300,
+        "lastEvent": {}
+      },
+      {
+        "id": "adb58d11-144a-45a8-9c00-074f2a77d3fc",
+        "requests": [
+          {
+            "alerts": [
+              {
+                "id": "05edf217-7e4f-4ab2-9248-ee6b32c5bc0b",
+                "query": "",
+                "message": "Probe not accessible"
+              },
+              {
+                "id": "89a05b93-97e5-476d-9ec1-fa44823982ed",
+                "query": "response.status < 200 or response.status > 299",
+                "message": "HTTP Status is {{ response.status }}, expecting 200"
+              }
+            ],
+            "body": null,
+            "headers": {},
+            "id": "be348553-c1c0-41fb-b064-99e22083b17f",
+            "method": "GET",
+            "timeout": 20000,
+            "url": "https://mail.pelaporan.id/",
+            "port": 0,
+            "ipAddress": "0.0.0.0",
+            "protocol": "http",
+            "order": 0,
+            "followRedirects": 5
+          }
+        ],
+        "interval": 300,
+        "lastEvent": {
+          "alertId": "05edf217-7e4f-4ab2-9248-ee6b32c5bc0b",
+          "createdAt": "2024-09-12T15:32:05.595Z",
+          "recoveredAt": null
+        }
+      },
+      {
+        "id": "a00019d8-413f-48eb-85d0-3d8e76cae430",
+        "requests": [
+          {
+            "alerts": [
+              {
+                "id": "21f06ca5-6243-4c29-b5fa-bf237464239b",
+                "query": "response.status < 200 or response.status > 299",
+                "message": "HTTP Status is {{ response.status }}, expecting 200"
+              },
+              {
+                "id": "96943e37-4961-4b4d-a58b-657d3a681260",
+                "query": "",
+                "message": "Probe not accessible"
+              }
+            ],
+            "body": null,
+            "headers": null,
+            "id": "5057b942-a6ea-4cb3-b22b-0fa704613aaa",
+            "method": "GET",
+            "timeout": 30000,
+            "url": "https://hyperjump.tech",
+            "port": 0,
+            "ipAddress": "0.0.0.0",
+            "protocol": "http",
+            "order": 0,
+            "followRedirects": 5
+          }
+        ],
+        "interval": 300,
+        "lastEvent": {}
+      },
+      {
+        "id": "9be825a9-a2fa-4b00-980a-e47227837c36",
+        "requests": [
+          {
+            "alerts": [
+              {
+                "id": "4167e827-b566-4185-b2dc-df5c3dc19ae9",
+                "query": "response.status < 200 or response.status > 299",
+                "message": "HTTP Status is {{ response.status }}, expecting 200"
+              },
+              {
+                "id": "50f933bd-5f4e-4e16-9b12-f5080a8ea659",
+                "query": "",
+                "message": "Probe not accessible"
+              }
+            ],
+            "body": null,
+            "headers": null,
+            "id": "0fd9b6a6-a3d3-45c2-bd5d-db9edc707b4a",
+            "method": "GET",
+            "timeout": 30000,
+            "url": "https://www.google.com",
+            "port": 0,
+            "ipAddress": "0.0.0.0",
+            "protocol": "http",
+            "order": 0,
+            "followRedirects": 5
+          },
+          {
+            "alerts": [
+              {
+                "id": "93b12e9d-c4cc-4189-b7a7-368fd4ecbda3",
+                "query": "",
+                "message": "Probe not accessible"
+              },
+              {
+                "id": "eac832f2-9454-4b45-b1b2-4b1a17a7d931",
+                "query": "response.status < 200 or response.status > 299",
+                "message": "HTTP Status is {{ response.status }}, expecting 200"
+              }
+            ],
+            "body": null,
+            "headers": {},
+            "id": "39e267f1-1d35-4ac1-b6d6-eb0cfca1ca54",
+            "method": "GET",
+            "timeout": 10000,
+            "url": "https://efisiensi.id/",
+            "port": 0,
+            "ipAddress": "0.0.0.0",
+            "protocol": "http",
+            "order": 1,
+            "followRedirects": 5
+          }
+        ],
+        "interval": 300,
+        "lastEvent": {}
+      },
+      {
+        "id": "9bc5b6ee-d0a7-42c2-8659-06983ab87c12",
+        "requests": [
+          {
+            "alerts": [
+              {
+                "id": "8085c82d-e29a-48b0-bcd9-46d379df856d",
+                "query": "response.status < 200 or response.status > 299",
+                "message": "HTTP Status is {{ response.status }}, expecting 200"
+              },
+              {
+                "id": "d410f7a9-9d76-4eab-b768-3c9a99d94974",
+                "query": "",
+                "message": "Probe not accessible"
+              }
+            ],
+            "body": null,
+            "headers": null,
+            "id": "43c49a97-ee59-4595-87bc-76731d6479c0",
+            "method": "GET",
+            "timeout": 30000,
+            "url": "https://support.biznetgio.com",
+            "port": 0,
+            "ipAddress": "0.0.0.0",
+            "protocol": "http",
+            "order": 0,
+            "followRedirects": 5
+          }
+        ],
+        "interval": 300,
+        "lastEvent": {}
+      },
+      {
+        "id": "9ab43be9-9a7b-4232-a6fc-110331823f0e",
+        "requests": [
+          {
+            "alerts": [
+              {
+                "id": "0da776b2-d937-4796-aa2b-276abe3597e0",
+                "query": "response.status < 200 or response.status > 299",
+                "message": "HTTP Status is {{ response.status }}, expecting 200"
+              },
+              {
+                "id": "c222d584-c625-4116-8d7b-416fcb32659e",
+                "query": "",
+                "message": "Probe not accessible"
+              }
+            ],
+            "body": null,
+            "headers": null,
+            "id": "79600330-27e8-48b0-9785-24513c4eeb42",
+            "method": "GET",
+            "timeout": 30000,
+            "url": "https://event.tzuchi-sinarmas.id",
+            "port": 0,
+            "ipAddress": "0.0.0.0",
+            "protocol": "http",
+            "order": 0,
+            "followRedirects": 5
+          }
+        ],
+        "interval": 300,
+        "lastEvent": {
+          "alertId": "c222d584-c625-4116-8d7b-416fcb32659e",
+          "createdAt": "2024-09-12T02:15:33.515Z",
+          "recoveredAt": null
+        }
+      },
+      {
+        "id": "97bf844c-90e4-4f57-bbe0-0fd147f116f0",
+        "requests": [
+          {
+            "alerts": [
+              {
+                "id": "2b1e6c78-99d1-4e58-a9b3-9a1237fc42aa",
+                "query": "response.status < 200 or response.status > 299",
+                "message": "HTTP Status is {{ response.status }}, expecting 200"
+              },
+              {
+                "id": "364f1f2d-8022-4bda-a72f-15fdf45008fd",
+                "query": "",
+                "message": "Probe not accessible"
+              }
+            ],
+            "body": null,
+            "headers": {},
+            "id": "be25470a-1bbc-4ecb-ab8c-4f3d48b7c9df",
+            "method": "GET",
+            "timeout": 10000,
+            "url": "https://tanyain.xyz",
+            "port": 0,
+            "ipAddress": "0.0.0.0",
+            "protocol": "http",
+            "order": 0,
+            "followRedirects": 5
+          }
+        ],
+        "interval": 300,
+        "lastEvent": {}
+      },
+      {
+        "id": "8fe6871b-9759-4c4a-bb08-da8035910869",
+        "requests": [
+          {
+            "alerts": [
+              {
+                "id": "4c60f130-35b0-4d0b-9e62-317614edddd0",
+                "query": "response.status < 200 or response.status > 299",
+                "message": "HTTP Status is {{ response.status }}, expecting 200"
+              },
+              {
+                "id": "cbb8f41e-a5db-4f29-8ac2-a09dffcdb68a",
+                "query": "",
+                "message": "Probe not accessible"
+              }
+            ],
+            "body": null,
+            "headers": null,
+            "id": "d9775fac-1c1c-43b6-a3d9-8a504ee4cb12",
+            "method": "GET",
+            "timeout": 30000,
+            "url": "https://www.google.com",
+            "port": 0,
+            "ipAddress": "0.0.0.0",
+            "protocol": "http",
+            "order": 0,
+            "followRedirects": 5
+          }
+        ],
+        "interval": 300,
+        "lastEvent": {}
+      },
+      {
+        "id": "8a763ca0-f4a3-47a0-ad6d-2c0e5402afb1",
+        "requests": [
+          {
+            "alerts": [
+              {
+                "id": "5e0eded3-8a45-430c-a3a5-95031184187b",
+                "query": "",
+                "message": "Probe not accessible"
+              },
+              {
+                "id": "cbbfb2e5-6079-4f39-bb7d-67adace909a8",
+                "query": "response.status < 200 or response.status > 299",
+                "message": "HTTP Status is {{ response.status }}, expecting 200"
+              }
+            ],
+            "body": null,
+            "headers": null,
+            "id": "2af3d801-995e-49ff-a529-f7e3990c8880",
+            "method": "GET",
+            "timeout": 30000,
+            "url": "http://52.237.100.98/signin",
+            "port": 0,
+            "ipAddress": "0.0.0.0",
+            "protocol": "http",
+            "order": 0,
+            "followRedirects": 5
+          }
+        ],
+        "interval": 300,
+        "lastEvent": {}
+      },
+      {
+        "id": "83c59e23-38ae-4888-8c7f-e40a22119512",
+        "requests": [
+          {
+            "alerts": [
+              {
+                "id": "b96bc83c-bf6f-4045-ae5d-3621e34be1ed",
+                "query": "response.status < 200 or response.status > 299",
+                "message": "HTTP Status is {{ response.status }}, expecting 200"
+              },
+              {
+                "id": "e9cf1745-a79f-418b-b5d7-b32eace58f1c",
+                "query": "",
+                "message": "Probe not accessible"
+              }
+            ],
+            "body": null,
+            "headers": null,
+            "id": "91a68b29-89fe-44b2-94ff-3b44200eaf30",
+            "method": "GET",
+            "timeout": 30000,
+            "url": "https://www.kemenkopmk.go.id/",
+            "port": 0,
+            "ipAddress": "0.0.0.0",
+            "protocol": "http",
+            "order": 0,
+            "followRedirects": 5
+          }
+        ],
+        "interval": 300,
+        "lastEvent": {
+          "alertId": "e9cf1745-a79f-418b-b5d7-b32eace58f1c",
+          "createdAt": "2024-08-21T20:36:24.772Z",
+          "recoveredAt": null
+        }
+      },
+      {
+        "id": "80a127fa-4e19-41c2-ba30-ca5ab075bef2",
+        "requests": [
+          {
+            "alerts": [
+              {
+                "id": "246171e1-6e79-4dcb-a480-3b95bd3790c5",
+                "query": "",
+                "message": "Probe not accessible"
+              },
+              {
+                "id": "6eb2df89-42cb-4844-9ba8-75696b9b0c30",
+                "query": "response.status < 200 or response.status > 299",
+                "message": "HTTP Status is {{ response.status }}, expecting 200"
+              }
+            ],
+            "body": null,
+            "headers": null,
+            "id": "0fb9680f-27fc-47bf-989d-2dd8ebbb06ad",
+            "method": "GET",
+            "timeout": 30000,
+            "url": "https://www.google.com",
+            "port": 0,
+            "ipAddress": "0.0.0.0",
+            "protocol": "http",
+            "order": 0,
+            "followRedirects": 5
+          }
+        ],
+        "interval": 300,
+        "lastEvent": {}
+      },
+      {
+        "id": "7a98b61c-b400-4ef1-b33d-6fc57cd0b655",
+        "requests": [
+          {
+            "alerts": [
+              {
+                "id": "1972dfe2-7db0-4515-93b8-d6030e50c5de",
+                "query": "response.status < 200 or response.status > 299",
+                "message": "HTTP Status is {{ response.status }}, expecting 200"
+              },
+              {
+                "id": "7bbd178b-3601-47f1-b05e-00f876b0832a",
+                "query": "",
+                "message": "Probe not accessible"
+              }
+            ],
+            "body": null,
+            "headers": null,
+            "id": "6054c60b-5bb4-428d-b4bb-48f890217f29",
+            "method": "GET",
+            "timeout": 30000,
+            "url": "https://www.indorelawan.org",
+            "port": 0,
+            "ipAddress": "0.0.0.0",
+            "protocol": "http",
+            "order": 0,
+            "followRedirects": 5
+          }
+        ],
+        "interval": 300,
+        "lastEvent": {}
+      },
+      {
+        "id": "718fef9d-64a4-42c8-b5cf-d632fe4defcf",
+        "requests": [
+          {
+            "alerts": [
+              {
+                "id": "c121fd5c-57f7-45ac-9861-ff01282f049c",
+                "query": "response.status < 200 or response.status > 299",
+                "message": "HTTP Status is {{ response.status }}, expecting 200"
+              },
+              {
+                "id": "e28cff87-2a5d-46a9-a359-1e3ce9051c0e",
+                "query": "",
+                "message": "Probe not accessible"
+              }
+            ],
+            "body": null,
+            "headers": null,
+            "id": "1e2074bc-efe0-44d7-afef-90b69a1e5e9f",
+            "method": "GET",
+            "timeout": 30000,
+            "url": "https://api.indorelawan.org/api/stats",
+            "port": 0,
+            "ipAddress": "0.0.0.0",
+            "protocol": "http",
+            "order": 0,
+            "followRedirects": 5
+          }
+        ],
+        "interval": 300,
+        "lastEvent": {
+          "alertId": "c121fd5c-57f7-45ac-9861-ff01282f049c",
+          "createdAt": "2024-08-26T09:55:30.925Z",
+          "recoveredAt": "2024-08-26T10:08:05.610Z"
+        }
+      },
+      {
+        "id": "6cd2b224-174c-44e7-85e4-a58ba9157522",
+        "interval": 300,
+        "socket": {
+          "host": "103.93.131.31",
+          "port": 400,
+          "data": null,
+          "alerts": [
+            {
+              "id": "7a230961-c22c-4287-8585-ce502d23884c",
+              "query": "",
+              "message": "Probe not accessible"
+            }
+          ]
+        },
+        "lastEvent": {}
+      },
+      {
+        "id": "69fea814-eda7-46b1-8860-325f7b5bd13a",
+        "requests": [
+          {
+            "alerts": [
+              {
+                "id": "31c16870-590c-464f-81ec-ed5b132f7ec2",
+                "query": "response.status < 200 or response.status > 299",
+                "message": "HTTP Status is {{ response.status }}, expecting 200"
+              },
+              {
+                "id": "8ac6f04a-724c-4e39-8bad-f581c7046583",
+                "query": "",
+                "message": "Probe not accessible"
+              }
+            ],
+            "body": null,
+            "headers": null,
+            "id": "986e7948-330f-4ac3-a260-5c33971afd33",
+            "method": "GET",
+            "timeout": 30000,
+            "url": "https://www.google.com",
+            "port": 0,
+            "ipAddress": "0.0.0.0",
+            "protocol": "http",
+            "order": 0,
+            "followRedirects": 5
+          }
+        ],
+        "interval": 300,
+        "lastEvent": {}
+      },
+      {
+        "id": "66364e91-5ad6-45b0-bcde-16c2533ae4ba",
+        "requests": [
+          {
+            "alerts": [
+              {
+                "id": "1aec6c84-4d66-4276-a761-ebe6126c3803",
+                "query": "",
+                "message": "Probe not accessible"
+              },
+              {
+                "id": "88b47d6d-5da0-46ce-8a2e-df9c5791f75d",
+                "query": "response.status < 200 or response.status > 299",
+                "message": "HTTP Status is {{ response.status }}, expecting 200"
+              }
+            ],
+            "body": null,
+            "headers": null,
+            "id": "b95b366d-efd7-4946-ab1c-dbfb6d4e2cb1",
+            "method": "GET",
+            "timeout": 30000,
+            "url": "https://digitalday.sinarmas.com/metabase/auth/login",
+            "port": 0,
+            "ipAddress": "0.0.0.0",
+            "protocol": "http",
+            "order": 0,
+            "followRedirects": 5
+          }
+        ],
+        "interval": 300,
+        "lastEvent": {}
+      },
+      {
+        "id": "64c065b2-2532-4ebc-9650-8d557eadd55e",
+        "requests": [
+          {
+            "alerts": [
+              {
+                "id": "1312139e-90c8-48a8-8b1a-6cf461126a3c",
+                "query": "response.status < 200 or response.status > 299",
+                "message": "HTTP Status is not 200"
+              },
+              {
+                "id": "498d781a-9fe6-443c-8709-8dd6164ad3a6",
+                "query": "",
+                "message": "Probe not accessible"
+              },
+              {
+                "id": "84bd2843-3a79-4f5c-b275-8e83f24d89ec",
+                "query": "response.time > 10000",
+                "message": "Response time is more than 10000ms"
+              }
+            ],
+            "body": null,
+            "headers": null,
+            "id": "8f0f05de-e749-4c75-8ac6-a158fbd60ea2",
+            "method": "GET",
+            "timeout": 10000,
+            "url": "https://shopee.co.id/",
+            "port": 0,
+            "ipAddress": "0.0.0.0",
+            "protocol": "http",
+            "order": 0,
+            "followRedirects": 5
+          },
+          {
+            "alerts": [
+              {
+                "id": "0e2b934e-deaa-49e1-915d-1e528b571568",
+                "query": "response.time > 10000",
+                "message": "Response time is {{ response.time }} ms, expecting less than 10000ms"
+              },
+              {
+                "id": "412563c3-6082-415c-8368-0c8048e25d19",
+                "query": "",
+                "message": "Probe not accessible"
+              },
+              {
+                "id": "46dfbaa3-b3d1-4250-a3e0-3ad34d4ea161",
+                "query": "response.status < 200 or response.status > 299",
+                "message": "HTTP Status is {{ response.status }}, expecting 200"
+              }
+            ],
+            "body": null,
+            "headers": {},
+            "id": "81d322a4-8164-4d8e-b764-933bfe7ef819",
+            "method": "GET",
+            "timeout": 20000,
+            "url": "https://shopee.co.id/login",
+            "port": 0,
+            "ipAddress": "0.0.0.0",
+            "protocol": "http",
+            "order": 1,
+            "followRedirects": 5
+          },
+          {
+            "alerts": [
+              {
+                "id": "283361de-9325-4843-bc55-21fb3977d4aa",
+                "query": "",
+                "message": "Probe not accessible"
+              },
+              {
+                "id": "2c614728-9658-4b1d-83a5-69562a971b32",
+                "query": "response.status < 200 or response.status > 299",
+                "message": "HTTP Status is {{ response.status }}, expecting 200"
+              },
+              {
+                "id": "65e2a7e8-0e99-4a2b-bfd0-8cc60c096d37",
+                "query": "response.time > 10000",
+                "message": "Response time is {{ response.time }} ms, expecting less than 10000ms"
+              }
+            ],
+            "body": null,
+            "headers": {},
+            "id": "3a91007e-e60c-41d7-b750-411577e3bc17",
+            "method": "GET",
+            "timeout": 10000,
+            "url": "https://shopee.co.id/register",
+            "port": 0,
+            "ipAddress": "0.0.0.0",
+            "protocol": "http",
+            "order": 2,
+            "followRedirects": 5
+          }
+        ],
+        "interval": 300,
+        "lastEvent": {}
+      },
+      {
+        "id": "64084ce5-4938-4c43-bb78-af133ffe9104",
+        "requests": [
+          {
+            "alerts": [
+              {
+                "id": "24875ada-d50e-401d-a479-ba5094df5a99",
+                "query": "response.status < 200 or response.status > 299",
+                "message": "HTTP Status is {{ response.status }}, expecting 200"
+              },
+              {
+                "id": "4bf31aff-5236-4c50-a438-c8850686c0f7",
+                "query": "",
+                "message": "Probe not accessible"
+              }
+            ],
+            "body": null,
+            "headers": null,
+            "id": "fa016d8c-45f0-4207-a5c1-3f8c1f0e7917",
+            "method": "GET",
+            "timeout": 30000,
+            "url": "https://www.google.com",
+            "port": 0,
+            "ipAddress": "0.0.0.0",
+            "protocol": "http",
+            "order": 0,
+            "followRedirects": 5
+          }
+        ],
+        "interval": 300,
+        "lastEvent": {}
+      },
+      {
+        "id": "5ea84640-6035-4b55-b2b1-ad186d49fb0d",
+        "requests": [
+          {
+            "alerts": [
+              {
+                "id": "9e39c04a-43c9-436e-b80c-2fb4391f1db0",
+                "query": "",
+                "message": "Probe not accessible"
+              },
+              {
+                "id": "acc1d066-a6db-4909-8484-3b6c2b4e6ef6",
+                "query": "response.status < 200 or response.status > 299",
+                "message": "HTTP Status is {{ response.status }}, expecting 200"
+              }
+            ],
+            "body": null,
+            "headers": {},
+            "id": "70d53933-8d33-4c86-9d61-a2262944d2db",
+            "method": "GET",
+            "timeout": 10000,
+            "url": "https://sumselindependen.com",
+            "port": 0,
+            "ipAddress": "0.0.0.0",
+            "protocol": "http",
+            "order": 0,
+            "followRedirects": 5
+          },
+          {
+            "alerts": [
+              {
+                "id": "00eb8dc0-d461-4990-881f-1485e047d268",
+                "query": "response.status < 200 or response.status > 299",
+                "message": "HTTP Status is {{ response.status }}, expecting 200"
+              },
+              {
+                "id": "8bd1ed10-2451-40bf-8b9a-9fa526ae097a",
+                "query": "",
+                "message": "Probe not accessible"
+              }
+            ],
+            "body": null,
+            "headers": {},
+            "id": "358f34ce-d938-4e89-8ee8-7fb8dda04378",
+            "method": "GET",
+            "timeout": 10000,
+            "url": "https://palembangindependen.com",
+            "port": 0,
+            "ipAddress": "0.0.0.0",
+            "protocol": "http",
+            "order": 1,
+            "followRedirects": 5
+          }
+        ],
+        "interval": 300,
+        "lastEvent": {}
+      },
+      {
+        "id": "52e5d88e-1f26-4020-9502-a69836c7cd0a",
+        "requests": [
+          {
+            "alerts": [
+              {
+                "id": "8ef69faa-b19a-40b6-afa5-b45759b1e956",
+                "query": "response.status < 200 or response.status > 299",
+                "message": "HTTP Status is {{ response.status }}, expecting 200"
+              },
+              {
+                "id": "c695642e-99e0-4423-84f1-1d701656f886",
+                "query": "",
+                "message": "Probe not accessible"
+              }
+            ],
+            "body": null,
+            "headers": {},
+            "id": "32b9ea18-5c5f-4a8b-bbd3-7015c31385ea",
+            "method": "GET",
+            "timeout": 10000,
+            "url": "https://tako.id/api/site-config",
+            "port": 0,
+            "ipAddress": "0.0.0.0",
+            "protocol": "http",
+            "order": 0,
+            "followRedirects": 5
+          }
+        ],
+        "interval": 300,
+        "lastEvent": {}
+      },
+      {
+        "id": "49be37a2-5d8c-4343-9474-df0474751c40",
+        "requests": [
+          {
+            "alerts": [
+              {
+                "id": "58dc7f24-2c13-4845-9be8-73403d252a3d",
+                "query": "response.status < 200 or response.status > 299",
+                "message": "HTTP Status is {{ response.status }}, expecting 200"
+              },
+              {
+                "id": "5c3bdd24-9c25-46d9-8976-58e7ae45f29d",
+                "query": "",
+                "message": "Probe not accessible"
+              }
+            ],
+            "body": null,
+            "headers": null,
+            "id": "746e3527-df79-492c-b16a-d1af4b34a861",
+            "method": "GET",
+            "timeout": 30000,
+            "url": "https://detik.com",
+            "port": 0,
+            "ipAddress": "0.0.0.0",
+            "protocol": "http",
+            "order": 0,
+            "followRedirects": 5
+          }
+        ],
+        "interval": 300,
+        "lastEvent": {}
+      },
+      {
+        "id": "402c78b5-1745-4acf-b5c6-67c7342f00ce",
+        "requests": [
+          {
+            "alerts": [
+              {
+                "id": "3f2e63b3-1f49-423a-9715-2b71d03c736f",
+                "query": "",
+                "message": "Probe not accessible"
+              },
+              {
+                "id": "6e2dce6c-fd09-42c2-8aea-8a5498c05270",
+                "query": "response.status < 200 or response.status > 299",
+                "message": "HTTP Status is {{ response.status }}, expecting 200"
+              }
+            ],
+            "body": null,
+            "headers": null,
+            "id": "bceede6a-a823-4c37-8489-f5811f293acc",
+            "method": "GET",
+            "timeout": 30000,
+            "url": "https://tokopedia.com",
+            "port": 0,
+            "ipAddress": "0.0.0.0",
+            "protocol": "http",
+            "order": 0,
+            "followRedirects": 5
+          }
+        ],
+        "interval": 300,
+        "lastEvent": {}
+      },
+      {
+        "id": "3ff54d19-5b68-4070-9b27-1d62b0bb4acd",
+        "requests": [
+          {
+            "alerts": [
+              {
+                "id": "4420f8d2-a56e-44c5-9743-657e2c7cbe65",
+                "query": "response.status < 200 or response.status > 299",
+                "message": "HTTP Status is {{ response.status }}, expecting 200"
+              },
+              {
+                "id": "c2c9d47e-73c2-4cf1-8381-a6bfb1679403",
+                "query": "",
+                "message": "Probe not accessible"
+              }
+            ],
+            "body": null,
+            "headers": null,
+            "id": "66e5951a-f8a4-40f9-b9f7-d491752af27e",
+            "method": "GET",
+            "timeout": 30000,
+            "url": "https://digitalday.sinarmas.com/wa/",
+            "port": 0,
+            "ipAddress": "0.0.0.0",
+            "protocol": "http",
+            "order": 0,
+            "followRedirects": 5
+          }
+        ],
+        "interval": 300,
+        "lastEvent": {}
+      },
+      {
+        "id": "3fed12a8-cb8d-4db3-99bf-ecbce70e82ad",
+        "requests": [
+          {
+            "alerts": [
+              {
+                "id": "80f98393-059a-4bb4-a2b8-68b65eb7e890",
+                "query": "",
+                "message": "Probe not accessible"
+              },
+              {
+                "id": "e7b59be5-f727-40ea-95a0-05ea1e31f07b",
+                "query": "response.status < 200 or response.status > 299",
+                "message": "HTTP Status is {{ response.status }}, expecting 200"
+              }
+            ],
+            "body": null,
+            "headers": {},
+            "id": "1fcc95a6-db31-4b25-8dd3-6dc74d94ca58",
+            "method": "GET",
+            "timeout": 30000,
+            "url": "https://private.angga.web.id",
+            "port": 0,
+            "ipAddress": "0.0.0.0",
+            "protocol": "http",
+            "order": 0,
+            "followRedirects": 5
+          }
+        ],
+        "interval": 300,
+        "lastEvent": {
+          "alertId": "80f98393-059a-4bb4-a2b8-68b65eb7e890",
+          "createdAt": "2024-09-04T20:51:43.820Z",
+          "recoveredAt": null
+        }
+      },
+      {
+        "id": "3ee2a56d-9247-49bb-93b9-b3d029c11807",
+        "requests": [
+          {
+            "alerts": [
+              {
+                "id": "437a6933-7d42-48b9-a983-a34b55a4c62f",
+                "query": "",
+                "message": "Probe not accessible"
+              },
+              {
+                "id": "456aef43-9080-4e59-bbb5-f0c4c4649be3",
+                "query": "response.status < 200 or response.status > 299",
+                "message": "HTTP Status is {{ response.status }}, expecting 200"
+              }
+            ],
+            "body": null,
+            "headers": null,
+            "id": "70be106a-adc0-4dc5-8148-62347a26fed1",
+            "method": "GET",
+            "timeout": 30000,
+            "url": "https://digitalday.sinarmas.com/ticket/health",
+            "port": 0,
+            "ipAddress": "0.0.0.0",
+            "protocol": "http",
+            "order": 0,
+            "followRedirects": 5
+          }
+        ],
+        "interval": 300,
+        "lastEvent": {
+          "alertId": "437a6933-7d42-48b9-a983-a34b55a4c62f",
+          "createdAt": "2024-09-14T05:08:48.644Z",
+          "recoveredAt": "2024-09-17T02:37:52.459Z"
+        }
+      },
+      {
+        "id": "2f6b330f-360d-4799-99aa-fcdd826e9dd1",
+        "requests": [
+          {
+            "alerts": [
+              {
+                "id": "1d3fc44e-fbd9-4eec-9f78-256ab4e69c3f",
+                "query": "",
+                "message": "Probe not accessible"
+              },
+              {
+                "id": "f7ae6407-e87f-4d71-9913-46b5fc8f25dc",
+                "query": "response.status < 200 or response.status > 299",
+                "message": "URL Become Unavailable (200 - 299)"
+              }
+            ],
+            "body": null,
+            "headers": null,
+            "id": "294ce2b7-0ae1-4135-954a-e96723436b64",
+            "method": "GET",
+            "timeout": 10000,
+            "url": "https://auto.itheorie.ch",
+            "port": 0,
+            "ipAddress": "0.0.0.0",
+            "protocol": "http",
+            "order": 0,
+            "followRedirects": 5
+          }
+        ],
+        "interval": 300,
+        "lastEvent": {
+          "alertId": "1d3fc44e-fbd9-4eec-9f78-256ab4e69c3f",
+          "createdAt": "2024-08-29T20:11:32.334Z",
+          "recoveredAt": null
+        }
+      },
+      {
+        "id": "1aaa14fb-578e-4b65-a2d6-57b3d90a007a",
+        "requests": [
+          {
+            "alerts": [
+              {
+                "id": "9a25c294-a05d-477d-82d0-545ca0e75b9f",
+                "query": "",
+                "message": "Probe not accessible"
+              },
+              {
+                "id": "fdba0e4d-c95c-4814-87c6-2a3a422bfff0",
+                "query": "response.status < 200 or response.status > 299",
+                "message": "HTTP Status is {{ response.status }}, expecting 200"
+              }
+            ],
+            "body": null,
+            "headers": null,
+            "id": "d30ffd00-423d-4a99-a3f6-0f6fc60a367c",
+            "method": "GET",
+            "timeout": 30000,
+            "url": "https://idp.sinarmas.com/api/health",
+            "port": 0,
+            "ipAddress": "0.0.0.0",
+            "protocol": "http",
+            "order": 0,
+            "followRedirects": 5
+          }
+        ],
+        "interval": 300,
+        "lastEvent": {}
+      },
+      {
+        "id": "10c3b2f6-a5fa-4ab0-bffb-839255993db0",
+        "requests": [
+          {
+            "alerts": [
+              {
+                "id": "29771e80-cf01-4e3a-b32e-9fdfbdf31824",
+                "query": "response.status < 200 or response.status > 299",
+                "message": "HTTP Status is {{ response.status }}, expecting 200"
+              },
+              {
+                "id": "9c61486d-a97a-4dee-a201-8c1a1dbf4195",
+                "query": "",
+                "message": "Probe not accessible"
+              }
+            ],
+            "body": null,
+            "headers": null,
+            "id": "db34419e-15e2-4a37-ade4-b5f97d9f06b6",
+            "method": "GET",
+            "timeout": 30000,
+            "url": "https://my.cordelia.id",
+            "port": 0,
+            "ipAddress": "0.0.0.0",
+            "protocol": "http",
+            "order": 0,
+            "followRedirects": 5
+          }
+        ],
+        "interval": 300,
+        "lastEvent": {
+          "alertId": "9c61486d-a97a-4dee-a201-8c1a1dbf4195",
+          "createdAt": "2024-09-18T21:42:45.978Z",
+          "recoveredAt": null
+        }
+      },
+      {
+        "id": "044e640b-06d6-414e-a58c-333cc562cf09",
+        "requests": [
+          {
+            "alerts": [
+              {
+                "id": "3db3ebd3-9470-48eb-857d-b2d5995f832d",
+                "query": "response.status < 200 or response.status > 299",
+                "message": "HTTP Status is {{ response.status }}, expecting 200"
+              },
+              {
+                "id": "cd380040-9e43-4cfb-8caf-5b21e10fc9a7",
+                "query": "",
+                "message": "Probe not accessible"
+              }
+            ],
+            "body": null,
+            "headers": null,
+            "id": "fc1f6f08-bcec-438c-a230-2b605ab9db5b",
+            "method": "GET",
+            "timeout": 30000,
+            "url": "https://api.indorelawan.org/api/stats",
+            "port": 0,
+            "ipAddress": "0.0.0.0",
+            "protocol": "http",
+            "order": 0,
+            "followRedirects": 5
+          }
+        ],
+        "interval": 300,
+        "lastEvent": {}
+      }
+    ]
+  }
+  
